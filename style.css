@@ -35,7 +35,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.main-wrapper {
+.add__wrapper {
   display: flex;
 }
 .list {
@@ -72,7 +72,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.add-subtitle {
+.add__subtitle {
   display: block;
   margin: 0 0 20px;
 }
