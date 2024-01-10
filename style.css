@@ -16,6 +16,9 @@
 .header .link {
   font-family: fantasy, cursive;
 }
+.header__title {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .header { 
@@ -60,8 +63,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.subtitle,
-.label {
+.subtitle {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -69,6 +71,10 @@
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+}
+.add-subtitle {
+  display: block;
+  margin: 0 0 20px;
 }
 .input-text {
   margin: 0;
@@ -87,10 +93,6 @@
 }
 
 /* New Task */
-.label {
-  display: block;
-  margin: 0 0 20px;
-}
 #new-task {
   width: 318px;
 }
